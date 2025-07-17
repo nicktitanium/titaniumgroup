@@ -1,0 +1,56 @@
+    .header {
+        background-color: #800000; /* бордовый цвет */
+        color: white; /* цвет текста */
+        text-align: center; /* выравнивание текста по центру */
+        padding: 20px; /* отступы внутри плашки */
+        margin-bottom: 20px; /* отступ снизу от плашки */
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .result-panel {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        display: none; /* Скрываем панель по умолчанию */
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="file"] {
+        margin-bottom: 15px;
+    }
+
+    button {
+        background-color: darkred;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: darkred;
+    }
