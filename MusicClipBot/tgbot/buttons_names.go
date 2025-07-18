@@ -1,0 +1,41 @@
+package tgbot
+
+const (
+	startMakingClip      = "start making clip"
+	rockStyle            = "rock"
+	popStyle             = "pop"
+	hiphopStyle          = "rap"
+	classicStyle         = "calssic"
+	instrumentalStyle    = "instrumental"
+	notinstrumentalStyle = "not instrumental"
+	approvedPrompt       = "approved"
+	notapprovedPrompt    = "not approved"
+	firstSong            = "1"
+	secondSong           = "2"
+	animatedVideo        = "animated"
+	realisticVideo       = "realistic"
+	approvedVideo        = "approve video"
+	notapprovedVideo     = "not approved video"
+	regenerateVideo      = "regenerate video"
+	stopGeneraton        = "stop"
+)
+
+const (
+	userStartMakingClip      = "Начать создание клипа"
+	userRockStyle            = "Рок🤘"
+	userPopStyle             = "Поп🎇"
+	userHipHopStyle          = "Рэп💸"
+	userClassicStyle         = "Класика🎼"
+	userInstrumentalStyle    = "Без вокала🎻"
+	userNotInstrumentalStyle = "С вокалом🎙"
+	userApprovedPrompt       = "Подтверждаю✅"
+	userNotApprovedPrompt    = "Не подтверждаю❌"
+	userFirstSong            = "1️⃣"
+	userSecondSong           = "2️⃣"
+	userAnimatedVideo        = "Анимация👻"
+	userRealisticVideo       = "Реализм🌏"
+	userApprovedVideo        = "Подтверждаю✅"
+	userNotApprovedVideo     = "Не подтверждаю❌"
+	userRegenerateVideo      = "Сгенерировать заново🔄"
+	userStopGeneraton        = "Остановить❌"
+)
